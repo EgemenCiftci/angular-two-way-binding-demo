@@ -1,9 +1,9 @@
-import { Component, Input, Output, EventEmitter } from "@angular/core";
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: "app-child",
-  templateUrl: "./child.component.html",
-  styleUrls: ["./child.component.css"]
+  selector: 'app-child',
+  templateUrl: './child.component.html',
+  styleUrls: ['./child.component.css'],
 })
 export class ChildComponent {
   private numValue: number;
@@ -24,6 +24,6 @@ export class ChildComponent {
 
   increment() {
     this.num++;
-    console.log("increment from child!");
+    console.log('increment from child!');
   }
 }
